@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="panelTrasero" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dam.gotask.IniciarSesionController">
+    <children>
+        <ImageView fx:id="logoImagen" fitHeight="303.0" fitWidth="503.0" layoutX="444.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../../Imagenes/GoTask-LOGO.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="590.0" layoutY="242.0" style="-fx-text-fill: #F85F6A; -fx-font-size: 20px; -fx-font-weight: bold;">
+            <font>
+                <Font name="Arial" size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="545.0" layoutY="354.0" style="-fx-text-fill: #F85F6A;" text="Email" />
+        <TextField fx:id="anyadirEmailField" layoutX="545.0" layoutY="372.0" prefHeight="30.0" prefWidth="300.0" promptText="example@gmail.com" />
+        <Label layoutX="545.0" layoutY="414.0" style="-fx-text-fill: #F85F6A;" text="Password" />
+        <PasswordField fx:id="AnydirContraseñaField" layoutX="545.0" layoutY="434.0" prefHeight="30.0" prefWidth="300.0" promptText="************" />
+        <ImageView fx:id="verContraseñaImagen" fitHeight="39.0" fitWidth="35.0" layoutX="853.0" layoutY="431.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../../Imagenes/ojito-password.png" />
+            </image>
+        </ImageView>
+        <CheckBox fx:id="verContraseñaCheck" layoutX="862.0" layoutY="440.0" mnemonicParsing="false" onAction="#togglePasswordVisible" opacity="0.0" />
+        <TextField fx:id="mostrarContraseñaField" layoutX="546.0" layoutY="434.0" prefHeight="30.0" prefWidth="300.0" visible="false" />
+        <Label fx:id="errorLogin" layoutX="610.0" layoutY="560.0" prefHeight="30.0" prefWidth="169.0" style="-fx-background-color: #FFFFFF;" text="Email o contraseña incorrecto" />
+        <Button fx:id="olvidasteContraseñaBoton" layoutX="445.0" layoutY="627.0" mnemonicParsing="false" onAction="#OlvidasteContraseñaBoton" style="-fx-background-color: #FFFFFF; -fx-text-fill: #3B5998; -fx-underline: true;" text="¿Olvidaste tu contraseña?" />
+        <Button fx:id="botonIniciarSesion" layoutX="620.0" layoutY="514.0" mnemonicParsing="false" onAction="#botonIniciarSesion" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #F85F6A; -fx-text-fill: #FFFFFF;" text="Iniciar Sesión" textFill="#f85f6a" />
+        <Button fx:id="crearCuentaBoton" layoutX="837.0" layoutY="627.0" mnemonicParsing="false" onAction="#crearCuentaBoton" style="-fx-background-color: #FFFFFF; -fx-text-fill: #F85F6A;" text="Crear cuenta" />
+      <Label layoutX="506.0" layoutY="272.0" text="¡Bienvenido a GoTask!" textFill="#f85f6a">
+         <font>
+            <Font name="Arial Black" size="31.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

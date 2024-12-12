@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="MenuPrincipal2AnchorPane" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dam.gotask.MenuPrincipal2Controller">
+   <children>
+      <Pane fx:id="menuPrincipalPane2" prefHeight="768.0" prefWidth="215.0" style="-fx-background-color: #F85F6A;">
+         <children>
+            <ImageView fitHeight="168.0" fitWidth="339.0" layoutX="-40.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Imagenes/GoTask-LOGO-fotor-bg-remover-202405229011.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="SalirBtn" layoutY="709.0" mnemonicParsing="false" onAction="#Salir" prefHeight="59.0" prefWidth="215.0" stylesheets="@../estilos/style.css" text="Salir" textFill="WHITE" />
+            <ChoiceBox fx:id="filtros" layoutX="33.0" layoutY="195.0" prefWidth="150.0" stylesheets="@../estilos/style.css" />
+            <Label layoutX="92.0" layoutY="170.0" text="Filtros" textFill="WHITE" />
+            <Button fx:id="filtrarBtn" layoutX="33.0" layoutY="236.0" mnemonicParsing="false" onAction="#filtarar" prefHeight="25.0" prefWidth="150.0" stylesheets="@../estilos/style.css" text="Filtrar" />
+            <Button fx:id="verUsuarios" layoutY="650.0" mnemonicParsing="false" onAction="#OnVerUsuariosButtonClick" prefHeight="59.0" prefWidth="215.0" stylesheets="@../estilos/style.css" text="Ver usuarios" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Pane fx:id="MenuPane" layoutX="215.0" layoutY="-6.0" prefHeight="768.0" prefWidth="1150.0" />
+   </children>
+</AnchorPane>

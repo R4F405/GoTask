@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Menu" prefHeight="768.0" prefWidth="1051.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dam.gotask.VerTareaGrupoRealizadasController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f85f6a" height="145.0" layoutX="25.0" layoutY="25.0" stroke="BLACK" strokeType="INSIDE" width="1122.0" />
+      <Label fx:id="nombreTarea" layoutX="468.0" layoutY="70.0" text="Nombre tarea">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="538.0" layoutX="25.0" layoutY="223.0" stroke="BLACK" strokeType="INSIDE" width="832.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="431.0" layoutX="871.0" layoutY="223.0" stroke="BLACK" strokeType="INSIDE" width="276.0" />
+      <Label fx:id="recompensa" alignment="TOP_LEFT" layoutX="879.0" layoutY="231.0" prefHeight="416.0" prefWidth="262.0" text="No hay recompensa" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="40.0" layoutX="25.0" layoutY="176.0" stroke="BLACK" strokeType="INSIDE" width="832.0" />
+      <Label layoutX="391.0" layoutY="187.0" text="Descripción: " />
+      <Label layoutX="972.0" layoutY="187.0" text="Recompensa: " />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="40.0" layoutX="871.0" layoutY="176.0" stroke="BLACK" strokeType="INSIDE" width="276.0" />
+      <Label fx:id="textoDescripción" alignment="TOP_LEFT" layoutX="31.0" layoutY="231.0" prefHeight="522.0" prefWidth="819.0" text="Label" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="9.0" layoutX="82.0" layoutY="92.0" stroke="#f85f6a" strokeType="INSIDE" width="46.0" />
+      <Polygon fill="WHITE" layoutX="96.0" layoutY="112.0" points="-27.400005340576172, -13.599998474121094, -6.8000030517578125, -3.9999923706054688, -6.8000030517578125, -27.199996948242188" stroke="#f85f6a" strokeType="INSIDE" />
+      <Button fx:id="botonVolverLogin" layoutX="69.0" layoutY="84.0" mnemonicParsing="false" onAction="#botonVolverInicio" opacity="0.0" prefHeight="26.0" prefWidth="70.0" text="Button" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="98.0" layoutX="872.0" layoutY="663.0" stroke="BLACK" strokeType="INSIDE" width="276.0" />
+      <Label layoutX="981.0" layoutY="677.0" text="Tarea para:" />
+      <Label fx:id="realizador" layoutX="997.0" layoutY="703.0" text="label" />
+   </children>
+</AnchorPane>

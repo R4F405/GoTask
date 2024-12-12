@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="panelTrasero" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768" prefWidth="1366" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dam.gotask.CrearUsuarioController">
+   <children>
+      <ImageView fx:id="logoImagen" fitHeight="307.0" fitWidth="483.0" layoutX="442.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Imagenes/GoTask-LOGO.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="570.0" layoutY="319.0" style="-fx-text-fill: #F85F6A;" text="Email" />
+      <TextField fx:id="anyadirEmailField" layoutX="567.0" layoutY="342.0" prefHeight="26.0" prefWidth="232.0" promptText="example@gmail.com" />
+      <Label layoutX="570.0" layoutY="396.0" style="-fx-text-fill: #F85F6A;" text="Nueva contraseña" />
+      <PasswordField fx:id="AnydirContraseñaField1" layoutX="567.0" layoutY="419.0" prefHeight="26.0" prefWidth="232.0" promptText="************" />
+      <TextField fx:id="mostrarContraseñaField1" layoutX="568.0" layoutY="419.0" prefHeight="26.0" prefWidth="232.0" visible="false" />
+      <Label layoutX="570.0" layoutY="468.0" style="-fx-text-fill: #F85F6A;" text="Repite la contraseña" />
+      <PasswordField fx:id="AnydirContraseñaField2" layoutX="567.0" layoutY="494.0" prefHeight="26.0" prefWidth="232.0" promptText="************" />
+      <TextField fx:id="mostrarContraseñaField2" layoutX="568.0" layoutY="493.0" prefHeight="26.0" prefWidth="232.0" visible="false" />
+      <ImageView fitHeight="52.0" fitWidth="46.0" layoutX="802.0" layoutY="484.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Imagenes/ojito-password.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="52.0" fitWidth="46.0" layoutX="802.0" layoutY="409.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Imagenes/ojito-password.png" />
+         </image>
+      </ImageView>
+      <CheckBox fx:id="verContraseñaCheck1" layoutX="817.0" layoutY="498.0" mnemonicParsing="false" onAction="#togglePasswordVisible2" opacity="0.0" />
+      <TextField fx:id="correoNombreExistentesField" layoutX="592.0" layoutY="530.0" prefHeight="26.0" prefWidth="226.0" style="-fx-background-color: #FFFFFF;" text="El nombre o correo ya existe" visible="false" />
+      <TextField fx:id="ContraseñaDiferenteField" layoutX="585.0" layoutY="564.0" prefHeight="26.0" prefWidth="270.0" style="-fx-background-color: #FFFFFF;" text="Las contraseñas deben ser iguales" visible="false" />
+      <TextField fx:id="añadirNombreField" layoutX="567.0" layoutY="271.0" prefHeight="26.0" prefWidth="232.0" promptText="Pepe" />
+      <Label layoutX="570.0" layoutY="247.0" style="-fx-text-fill: #F85F6A;" text="Nombre" />
+      <Button fx:id="botonCrearUsuario" layoutX="625.0" layoutY="601.0" mnemonicParsing="false" onAction="#botonCrearUsuario" prefHeight="26.0" prefWidth="116.0" style="-fx-background-color: #F85F6A; -fx-text-fill: #FFFFFF;" text="Crear usuario" />
+      <TextField fx:id="usuarioCreado" layoutX="571.0" layoutY="642.0" prefHeight="26.0" prefWidth="357.0" style="-fx-background-color: #FFFFFF;" text="El usuario se ha creado correctamente" visible="false" />
+      <CheckBox fx:id="verContraseñaCheck" layoutX="817.0" layoutY="423.0" mnemonicParsing="false" onAction="#togglePasswordVisible" opacity="0.0" />
+   </children>
+</AnchorPane>

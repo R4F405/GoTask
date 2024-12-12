@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="VerUsuarioAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="777.0" prefWidth="1138.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dam.gotask.UsuarioAdminController">
+   <children>
+      <ScrollPane layoutX="112.0" layoutY="168.0" prefHeight="539.0" prefWidth="914.0">
+         <content>
+            <GridPane fx:id="VerUsuariosGridPane">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+         </content>
+      </ScrollPane>
+      <Button fx:id="EliminarUsuariosButton" layoutX="892.0" layoutY="727.0" mnemonicParsing="false" onAction="#onEliminarUsuariosButtonClick" prefHeight="38.0" prefWidth="133.0" stylesheets="@../estilos/style.css" text="Eliminar Usuarios" />
+      <Button fx:id="AñadirUsuariosButton" layoutX="113.0" layoutY="727.0" mnemonicParsing="false" onAction="#onAñadirUsuariosButtonClick" prefHeight="38.0" prefWidth="168.0" style="-fx-background-color: #F85F6A; -fx-border-color: black; -fx-border-width: 2px; -fx-border-radius: 5px; -fx-background-radius: 5px; -fx-padding: 2px; -fx-text-fill: rgb(255, 255, 255);" stylesheets="@../estilos/style.css" text="Añadir Usuarios" textFill="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f85f6a" height="97.0" layoutX="12.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="1114.0" />
+      <Label layoutX="506.0" layoutY="30.0" text="Tareas" textFill="WHITE">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="9.0" layoutX="90.0" layoutY="70.0" stroke="#f85f6a" strokeType="INSIDE" width="46.0" />
+      <Polygon fill="WHITE" layoutX="104.0" layoutY="90.0" points="-27.400005340576172, -13.599998474121094, -6.8000030517578125, -3.9999923706054688, -6.8000030517578125, -27.199996948242188" stroke="#f85f6a" strokeType="INSIDE" />
+      <Button fx:id="botonVolverLogin" layoutX="78.0" layoutY="61.0" mnemonicParsing="false" onAction="#botonVolverInicio" opacity="0.0" prefHeight="26.0" prefWidth="70.0" text="Button" />
+      <Label layoutX="113.0" layoutY="122.0" text="Integrantes">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

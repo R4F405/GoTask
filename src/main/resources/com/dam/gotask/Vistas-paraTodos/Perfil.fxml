@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="panelPerfil" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dam.gotask.PerfilController">
+   <children>
+      <Text fx:id="actualizarImagen" fill="#0037ff" fontSmoothingType="LCD" layoutX="673.0" layoutY="250.0" onMouseClicked="#actualizarImagenClick" strokeType="OUTSIDE" strokeWidth="0.0" text="Actualizar imagen" underline="true" />
+      <Label layoutX="286.0" layoutY="209.0" prefHeight="28.0" prefWidth="372.0" text="Bienvenido a tu espacio personal">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="224.0" layoutY="313.0" prefHeight="17.0" prefWidth="85.0" text="Nombre:" underline="true">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="124.0" layoutY="380.0" prefHeight="32.0" prefWidth="187.0" text="Correo Electrónico:" underline="true">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="441.0" prefHeight="32.0" prefWidth="126.0" text="Contraseña:" underline="true">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="nombreLabel" layoutX="322.0" layoutY="314.0" prefHeight="30.0" prefWidth="207.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="correoLabel" layoutX="318.0" layoutY="381.0" prefHeight="30.0" prefWidth="207.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="contrasenyaLabel" layoutX="318.0" layoutY="441.0" prefHeight="26.0" prefWidth="150.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="mostrarContraseñaLabel" layoutX="318.0" layoutY="442.0" prefHeight="26.0" prefWidth="150.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="lapizEditarNombre" fitHeight="32.0" fitWidth="38.0" layoutX="527.0" layoutY="313.0" onMouseClicked="#editarNombre" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Imagenes/lapiz.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lapizEditarCorreo" fitHeight="32.0" fitWidth="38.0" layoutX="527.0" layoutY="385.0" onMouseClicked="#editarCorreo" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Imagenes/lapiz.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lapizEditarContra" fitHeight="32.0" fitWidth="38.0" layoutX="508.0" layoutY="445.0" onMouseClicked="#cambiarContra" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Imagenes/lapiz.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="elimCuenta" layoutX="673.0" layoutY="664.0" mnemonicParsing="false" onMouseClicked="#eliminarCuenta" prefHeight="45.0" prefWidth="126.0" text="Eliminar Cuenta" />
+      <Circle fx:id="circulo" fill="WHITE" layoutX="720.0" layoutY="176.0" radius="47.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" fill="WHITE" height="295.0" layoutX="737.0" layoutY="294.0" opacity="0.08" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="372.0" />
+      <ImageView fx:id="imagenEuro" fitHeight="109.0" fitWidth="95.0" layoutX="876.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Imagenes/EURO.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="949.0" layoutY="383.0" prefHeight="30.0" prefWidth="25.0" text="€">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="761.0" layoutY="302.0" text="RECOMPENSAS TOTALES">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="dineroLabel" layoutX="867.0" layoutY="383.0" prefHeight="46.0" prefWidth="74.0">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imagenDelPerfil" fitHeight="106.0" fitWidth="74.0" layoutX="683.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

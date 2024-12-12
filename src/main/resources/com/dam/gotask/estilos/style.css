@@ -1,0 +1,260 @@
+/*Menu principal*/
+#cerrarSesion{
+    -fx-background-color: transparent;
+
+}
+#cerrarSesion:hover{
+    -fx-background-color: #f8767e;
+}
+
+#salirAGrupos{
+    -fx-background-color: transparent;
+
+}
+#salirAGrupos:hover{
+    -fx-background-color: #f8767e;
+}
+
+/*Menu filtro*/
+#filtros {
+    -fx-background-color: #ffffff;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px; 
+    -fx-padding: 2px;
+}
+#SalirBtn{
+    -fx-background-color: transparent;
+
+}
+#SalirBtn:hover{
+    -fx-background-color: #f8767e;
+}
+#verUsuarios{
+    -fx-background-color: transparent;
+
+}
+
+#verUsuarios:hover{
+    -fx-background-color: #f8767e;
+}
+#filtrarBtn {
+    -fx-background-color: #F85F6A;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px; 
+    -fx-padding: 2px;
+}
+#filtrarBtn:hover {
+    -fx-background-color: #f8767e;
+    
+}
+
+/*Botones de grupos*/
+#GrupoBotton {
+    -fx-background-color: #F85F6A;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px; 
+    -fx-padding: 2px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+#GrupoBotton:hover {
+    -fx-background-color: #f8767e;
+    
+}
+
+/*vista grupos*/
+#AnyadirGrupoButton {
+    -fx-background-color: #F85F6A;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px; 
+    -fx-padding: 2px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+#AnyadirGrupoButton:hover {
+    -fx-background-color: #f8767e;
+}
+#GrupoScrollPane {
+    -fx-background-color: #ffb0b6;
+}
+
+/*Añadir grupo*/
+#CrearGrupoPAne {
+    -fx-background-color: #ffffff;
+}
+#CrearGrupoButton {
+    -fx-background-color: #F85F6A;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px; 
+    -fx-padding: 2px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+#CrearGrupoButton:hover {
+    -fx-background-color: #f8767e;
+}
+#menu{
+    -fx-background-color: #F85F6A;
+}
+/*Ver tareas Usuario*/
+#tareaRealizadaBtn {
+    -fx-background-color: #5eb3fe;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px; 
+    -fx-padding: 2px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+#tareaRealizadaBtn:hover {
+    -fx-background-color: rgb(149, 216, 252)
+}
+/*Tareas realizarusuario botones*/
+#TareasUsuarioButton {
+    -fx-background-color: #5eb3fe;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px; 
+    -fx-padding: 2px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+#TareasUsuarioButton:hover {
+    -fx-background-color: rgb(149, 216, 252)
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Tareas realizar grupo bottones*/
+#TPorRealizarGrupoButton {
+    -fx-background-color: #F85F6A;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px; 
+    -fx-padding: 2px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+#TPorRealizarGrupoButton:hover {
+    -fx-background-color: #F85F6A;
+}
+/*Tareas realizar grupos botones tareas*/
+#TPorRealizarGButton {
+    -fx-background-color: #5eb3fe;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px; 
+    -fx-padding: 2px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+#TPorRealizarGButton:hover {
+    -fx-background-color: rgb(149, 216, 252)
+}
+
+
+
+
+
+
+
+
+
+/*tareas realizadas grupo btn*/
+#TRealizadasGButton {
+    -fx-background-color: #5eb3fe;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px; 
+    -fx-padding: 2px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+#TRealizadasGButton:hover {
+    -fx-background-color: rgb(149, 216, 252)
+}
+
+/*Tareas realizadas usuario button*/
+
+#TareasRealizadasUsuarioButton {
+    -fx-background-color: #5eb3fe;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px; 
+    -fx-padding: 2px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+#TareasRealizadasUsuarioButton:hover {
+    -fx-background-color: rgb(149, 216, 252)
+}
+/*Menu añadir tareas para grupo*/
+#anyadirTareasBtn {
+    -fx-background-color: #5eb3fe;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px; 
+    -fx-padding: 2px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+#anyadirTareasBtn:hover {
+    -fx-background-color: rgb(149, 216, 252)
+}
+
+/*Añadir tareas*/
+#anyadirBtn {
+    -fx-background-color: #F85F6A;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px; 
+    -fx-padding: 2px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+#anyadirBtn:hover {
+    -fx-background-color: #f8767e;
+}
+
+/*Usuarios de tarea modo admin*/
+
+#AñadirUsuariosButton {
+    -fx-background-color: #F85F6A;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px; 
+    -fx-padding: 2px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+#AñadirUsuariosButton:hover {
+    -fx-background-color: #f8767e;
+}
+
+#EliminarUsuariosButton {
+    -fx-background-color: #F85F6A;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px; 
+    -fx-padding: 2px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+#EliminarUsuariosButton:hover {
+    -fx-background-color: #f8767e;
+}
