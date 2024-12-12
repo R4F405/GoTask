@@ -1,0 +1,21 @@
+Los requisitos funcionales son especificaciones detalladas de las funciones, características y comportamientos que debe tener un sistema o aplicación para cumplir con las necesidades y expectativas de los usuarios. Describen lo que el sistema debe hacer y cómo debe comportarse ante diversas situaciones, enfocándose en las tareas y operaciones específicas que el software debe realizar.
+
+1.	Registro de Usuarios: La aplicación debe permitir a los usuarios registrarse mediante correo electrónico y contraseña.
+2.	Inicio de Sesión: La aplicación debe permitir a los usuarios iniciar sesión utilizando sus credenciales registradas.
+3.	Recuperación de Contraseña: La aplicación debe proporcionar una opción para recuperar la contraseña en caso de olvido.
+4.	Creación de Tareas: Los usuarios deben poder crear nuevas tareas con títulos y descripciones.
+5.	Eliminacion de cuenta: El usario debe poder eliminar su cuenta
+6.	Finalización de Tareas: Los usuarios deben poder finalizar tareas.
+7.	Creación de Grupos: Los usuarios deben poder crear grupos para colaboración en tareas.
+8.	Eliminación de usuarios: Los administradores del grupo pueden eliminar usuarios.
+9.	Invitación a Grupos: Los usuarios deben poder invitar a otros usuarios a unirse a un grupo.
+10.	Asignación de Tareas en Grupo: Los usuarios deben poder asignar tareas específicas a miembros de un grupo.
+11.	Seguimiento de Progreso: Los usuarios deben poder actualizar y ver el estado de las tareas (pendiente, completada).
+12.	Descripción en Tareas: Los usuarios deben poder añadir y ver descripciones en las tareas.
+13.	Sincronización en la Nube: Las tareas y grupos deben sincronizarse automáticamente en la nube para acceso desde cualquier dispositivo.
+14.	Configuración y Ajustes del Usuario: La aplicación debe permitir a los usuarios acceder a una sección de ajustes donde puedan personalizar su perfil.
+15.	Ajustes, cambio de nombre: El usuario puede cambiar el nombre 
+16.	Ajustes, cambio de imagen: El usuario puede cambiar su imagen
+17.	Reutilización de tareas: Una tarea que ha sido ya finalizada, puede ser reasignada a de nuevo a un usuario.
+18.	Sistema de Recompensas: La aplicación debe incluir un sistema de recompensas donde los usuarios puedan ganar una recompensa al completar tareas, así fomentar la productividad y ofrecer incentivos por el uso continuo de la aplicación.
+Estos requisitos funcionales cubren una amplia gama de características esenciales para garantizar que GoTask sea una herramienta completa y eficaz para la gestión de tareas y la colaboración en grupo.

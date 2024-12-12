@@ -1,0 +1,12 @@
+Los requisitos no funcionales son especificaciones que describen los criterios bajo los cuales un sistema opera, en lugar de las funciones específicas que debe realizar. Estos requisitos se centran en aspectos como el rendimiento, la seguridad, la usabilidad y la confiabilidad, asegurando que el sistema no solo funcione correctamente, sino que también lo haga de manera eficiente y segura.
+
+
+1.	Rendimiento: La aplicación debe responder a las solicitudes de los usuarios en menos de 3 segundos.
+2.	Seguridad: La aplicación debe requerir autenticación de usuario para acceder a las funciones principales.
+3.	Usabilidad: La aplicación debe ser fácil de usar, con una interfaz intuitiva y accesible para nuevos usuarios sin necesidad de capacitación.
+4.	Mantenibilidad: El código de la aplicación debe estar comentado y seguir buenas prácticas de programación para facilitar su mantenimiento.
+5.	Documentación: La aplicación debe contar con una documentación JAVADOC que explique su uso y funcionalidades principales.
+6.	Capacidad de Recuperación: La aplicación debe poder recuperarse de fallos comunes sin pérdida de datos, como reinicios del sistema o caídas temporales.
+7.	Seguridad: La aplicación debe implementar medidas de seguridad adecuadas, como la encriptación de datos sensibles.
+8.	Registro: La aplicación debe registrar en un log para facilitar la resolución de problemas y el mantenimiento.
+Estos requisitos no funcionales son esenciales para garantizar que GoTask no solo funcione correctamente, sino que también ofrezca una experiencia de usuario robusta, segura y de alto rendimiento.

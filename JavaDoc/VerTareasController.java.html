@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>VerTareasController.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #5f826b; font-style: italic;}
+.s4 { color: #67a37c; font-style: italic;}
+.s5 { color: #6aab73;}
+.ln { color: #4b5059; font-weight: normal; font-style: normal; }
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+VerTareasController.java</font>
+</center></td></tr></table>
+<pre><a name="l1"><span class="ln">1    </span></a><span class="s0">package </span><span class="s1">com</span><span class="s2">.</span><span class="s1">dam</span><span class="s2">.</span><span class="s1">gotask</span><span class="s2">;</span>
+<a name="l2"><span class="ln">2    </span></a>
+<a name="l3"><span class="ln">3    </span></a><span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">event</span><span class="s2">.</span><span class="s1">ActionEvent</span><span class="s2">;</span>
+<a name="l4"><span class="ln">4    </span></a><span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">fxml</span><span class="s2">.</span><span class="s1">FXMLLoader</span><span class="s2">;</span>
+<a name="l5"><span class="ln">5    </span></a><span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">scene</span><span class="s2">.</span><span class="s1">control</span><span class="s2">.</span><span class="s1">Button</span><span class="s2">;</span>
+<a name="l6"><span class="ln">6    </span></a><span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">scene</span><span class="s2">.</span><span class="s1">layout</span><span class="s2">.</span><span class="s1">AnchorPane</span><span class="s2">;</span>
+<a name="l7"><span class="ln">7    </span></a>
+<a name="l8"><span class="ln">8    </span></a><span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">io</span><span class="s2">.</span><span class="s1">IOException</span><span class="s2">;</span>
+<a name="l9"><span class="ln">9    </span></a><span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">util</span><span class="s2">.</span><span class="s1">logging</span><span class="s2">.</span><span class="s1">Level</span><span class="s2">;</span>
+<a name="l10"><span class="ln">10   </span></a><span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">util</span><span class="s2">.</span><span class="s1">logging</span><span class="s2">.</span><span class="s1">Logger</span><span class="s2">;</span>
+<a name="l11"><span class="ln">11   </span></a>
+<a name="l12"><span class="ln">12   </span></a><span class="s3">/**</span>
+<a name="l13"><span class="ln">13   </span></a> <span class="s3">* El controlador VerTareasController gestiona la vista para ver y añadir tareas.</span>
+<a name="l14"><span class="ln">14   </span></a> <span class="s3">* Proporciona funcionalidades para cambiar a la vista de añadir tareas.</span>
+<a name="l15"><span class="ln">15   </span></a> <span class="s3">*/</span>
+<a name="l16"><span class="ln">16   </span></a><span class="s0">public class </span><span class="s1">VerTareasController </span><span class="s2">{</span>
+<a name="l17"><span class="ln">17   </span></a>    <span class="s1">@javafx</span><span class="s2">.</span><span class="s1">fxml</span><span class="s2">.</span><span class="s1">FXML</span>
+<a name="l18"><span class="ln">18   </span></a>    <span class="s0">private </span><span class="s1">Button anyadirTareasBtn</span><span class="s2">;</span>
+<a name="l19"><span class="ln">19   </span></a>    <span class="s1">@javafx</span><span class="s2">.</span><span class="s1">fxml</span><span class="s2">.</span><span class="s1">FXML</span>
+<a name="l20"><span class="ln">20   </span></a>    <span class="s0">private </span><span class="s1">AnchorPane MenuPane</span><span class="s2">;</span>
+<a name="l21"><span class="ln">21   </span></a>
+<a name="l22"><span class="ln">22   </span></a>    <span class="s3">/**</span>
+<a name="l23"><span class="ln">23   </span></a>     <span class="s3">* Cambia a la vista de añadir tareas cuando se hace clic en el botón &quot;Añadir Tareas&quot;.</span>
+<a name="l24"><span class="ln">24   </span></a>     <span class="s3">*</span>
+<a name="l25"><span class="ln">25   </span></a>     <span class="s3">* </span><span class="s4">@param </span><span class="s3">actionEvent El evento de acción que desencadena esta función.</span>
+<a name="l26"><span class="ln">26   </span></a>     <span class="s3">*/</span>
+<a name="l27"><span class="ln">27   </span></a>    <span class="s1">@javafx</span><span class="s2">.</span><span class="s1">fxml</span><span class="s2">.</span><span class="s1">FXML</span>
+<a name="l28"><span class="ln">28   </span></a>    <span class="s0">public void </span><span class="s1">AnyadirTareas</span><span class="s2">(</span><span class="s1">ActionEvent actionEvent</span><span class="s2">) {</span>
+<a name="l29"><span class="ln">29   </span></a>        <span class="s0">try </span><span class="s2">{</span>
+<a name="l30"><span class="ln">30   </span></a>            <span class="s1">AnchorPane pane </span><span class="s2">= </span><span class="s1">FXMLLoader</span><span class="s2">.</span><span class="s1">load</span><span class="s2">(</span><span class="s1">getClass</span><span class="s2">().</span><span class="s1">getResource</span><span class="s2">(</span><span class="s5">&quot;Vistas-admin/anyadirTareas.fxml&quot;</span><span class="s2">));</span>
+<a name="l31"><span class="ln">31   </span></a>            <span class="s0">this</span><span class="s2">.</span><span class="s1">MenuPane</span><span class="s2">.</span><span class="s1">getChildren</span><span class="s2">().</span><span class="s1">setAll</span><span class="s2">(</span><span class="s1">pane</span><span class="s2">);</span>
+<a name="l32"><span class="ln">32   </span></a>        <span class="s2">} </span><span class="s0">catch </span><span class="s2">(</span><span class="s1">IOException ex</span><span class="s2">) {</span>
+<a name="l33"><span class="ln">33   </span></a>            <span class="s1">Logger</span><span class="s2">.</span><span class="s1">getLogger</span><span class="s2">(</span><span class="s1">MenuPrincipalController</span><span class="s2">.</span><span class="s0">class</span><span class="s2">.</span><span class="s1">getName</span><span class="s2">()).</span><span class="s1">log</span><span class="s2">(</span><span class="s1">Level</span><span class="s2">.</span><span class="s1">SEVERE</span><span class="s2">, </span><span class="s0">null</span><span class="s2">, </span><span class="s1">ex</span><span class="s2">);</span>
+<a name="l34"><span class="ln">34   </span></a>        <span class="s2">}</span>
+<a name="l35"><span class="ln">35   </span></a>    <span class="s2">}</span>
+<a name="l36"><span class="ln">36   </span></a><span class="s2">}</span>
+<a name="l37"><span class="ln">37   </span></a></pre>
+</body>
+</html>

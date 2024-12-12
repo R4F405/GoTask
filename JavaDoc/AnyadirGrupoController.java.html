@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>AnyadirGrupoController.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #5f826b; font-style: italic;}
+.s4 { color: #67a37c; font-style: italic;}
+.s5 { color: #7a7e85;}
+.s6 { color: #6aab73;}
+.ln { color: #4b5059; font-weight: normal; font-style: normal; }
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+AnyadirGrupoController.java</font>
+</center></td></tr></table>
+<pre><a name="l1"><span class="ln">1    </span></a><span class="s0">package </span><span class="s1">com</span><span class="s2">.</span><span class="s1">dam</span><span class="s2">.</span><span class="s1">gotask</span><span class="s2">;</span>
+<a name="l2"><span class="ln">2    </span></a>
+<a name="l3"><span class="ln">3    </span></a><span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">event</span><span class="s2">.</span><span class="s1">ActionEvent</span><span class="s2">;</span>
+<a name="l4"><span class="ln">4    </span></a><span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">fxml</span><span class="s2">.</span><span class="s1">FXMLLoader</span><span class="s2">;</span>
+<a name="l5"><span class="ln">5    </span></a><span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">fxml</span><span class="s2">.</span><span class="s1">Initializable</span><span class="s2">;</span>
+<a name="l6"><span class="ln">6    </span></a><span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">scene</span><span class="s2">.</span><span class="s1">control</span><span class="s2">.</span><span class="s1">Alert</span><span class="s2">;</span>
+<a name="l7"><span class="ln">7    </span></a><span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">scene</span><span class="s2">.</span><span class="s1">control</span><span class="s2">.</span><span class="s1">Button</span><span class="s2">;</span>
+<a name="l8"><span class="ln">8    </span></a><span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">scene</span><span class="s2">.</span><span class="s1">control</span><span class="s2">.</span><span class="s1">TextField</span><span class="s2">;</span>
+<a name="l9"><span class="ln">9    </span></a><span class="s0">import </span><span class="s1">javafx</span><span class="s2">.</span><span class="s1">scene</span><span class="s2">.</span><span class="s1">layout</span><span class="s2">.</span><span class="s1">AnchorPane</span><span class="s2">;</span>
+<a name="l10"><span class="ln">10   </span></a>
+<a name="l11"><span class="ln">11   </span></a><span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">io</span><span class="s2">.</span><span class="s1">IOException</span><span class="s2">;</span>
+<a name="l12"><span class="ln">12   </span></a><span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">net</span><span class="s2">.</span><span class="s1">URL</span><span class="s2">;</span>
+<a name="l13"><span class="ln">13   </span></a><span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">util</span><span class="s2">.</span><span class="s1">ResourceBundle</span><span class="s2">;</span>
+<a name="l14"><span class="ln">14   </span></a><span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">util</span><span class="s2">.</span><span class="s1">logging</span><span class="s2">.</span><span class="s1">Level</span><span class="s2">;</span>
+<a name="l15"><span class="ln">15   </span></a><span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">util</span><span class="s2">.</span><span class="s1">logging</span><span class="s2">.</span><span class="s1">Logger</span><span class="s2">;</span>
+<a name="l16"><span class="ln">16   </span></a>
+<a name="l17"><span class="ln">17   </span></a><span class="s3">/**</span>
+<a name="l18"><span class="ln">18   </span></a> <span class="s3">* Controlador para la vista de añadir grupo.</span>
+<a name="l19"><span class="ln">19   </span></a> <span class="s3">* Implementa la interfaz {</span><span class="s4">@link </span><span class="s3">Initializable} para inicializar la vista.</span>
+<a name="l20"><span class="ln">20   </span></a> <span class="s3">*/</span>
+<a name="l21"><span class="ln">21   </span></a><span class="s0">public class </span><span class="s1">AnyadirGrupoController </span><span class="s0">implements </span><span class="s1">Initializable </span><span class="s2">{</span>
+<a name="l22"><span class="ln">22   </span></a>
+<a name="l23"><span class="ln">23   </span></a>    <span class="s3">/**</span>
+<a name="l24"><span class="ln">24   </span></a>     <span class="s3">* Campo de texto para ingresar el nombre del grupo.</span>
+<a name="l25"><span class="ln">25   </span></a>     <span class="s3">*/</span>
+<a name="l26"><span class="ln">26   </span></a>    <span class="s1">@javafx</span><span class="s2">.</span><span class="s1">fxml</span><span class="s2">.</span><span class="s1">FXML</span>
+<a name="l27"><span class="ln">27   </span></a>    <span class="s0">private </span><span class="s1">TextField NombreGrupoTextField</span><span class="s2">;</span>
+<a name="l28"><span class="ln">28   </span></a>
+<a name="l29"><span class="ln">29   </span></a>    <span class="s3">/**</span>
+<a name="l30"><span class="ln">30   </span></a>     <span class="s3">* Botón para crear el grupo.</span>
+<a name="l31"><span class="ln">31   </span></a>     <span class="s3">*/</span>
+<a name="l32"><span class="ln">32   </span></a>    <span class="s1">@javafx</span><span class="s2">.</span><span class="s1">fxml</span><span class="s2">.</span><span class="s1">FXML</span>
+<a name="l33"><span class="ln">33   </span></a>    <span class="s0">private </span><span class="s1">Button CrearGrupoButton</span><span class="s2">;</span>
+<a name="l34"><span class="ln">34   </span></a>
+<a name="l35"><span class="ln">35   </span></a>    <span class="s3">/**</span>
+<a name="l36"><span class="ln">36   </span></a>     <span class="s3">* Panel de anclaje donde se cargará la nueva vista.</span>
+<a name="l37"><span class="ln">37   </span></a>     <span class="s3">*/</span>
+<a name="l38"><span class="ln">38   </span></a>    <span class="s1">@javafx</span><span class="s2">.</span><span class="s1">fxml</span><span class="s2">.</span><span class="s1">FXML</span>
+<a name="l39"><span class="ln">39   </span></a>    <span class="s0">private </span><span class="s1">AnchorPane CrearGrupoPAne</span><span class="s2">;</span>
+<a name="l40"><span class="ln">40   </span></a>
+<a name="l41"><span class="ln">41   </span></a>    <span class="s0">private </span><span class="s1">GrupoModel gm </span><span class="s2">= </span><span class="s0">new </span><span class="s1">GrupoModel</span><span class="s2">();</span>
+<a name="l42"><span class="ln">42   </span></a>    <span class="s0">private </span><span class="s1">Grupo g </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Grupo</span><span class="s2">();</span>
+<a name="l43"><span class="ln">43   </span></a>    <span class="s0">private </span><span class="s1">Usuarios u </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Usuarios</span><span class="s2">();</span>
+<a name="l44"><span class="ln">44   </span></a>    <span class="s0">private </span><span class="s1">GrupoUsuario gu </span><span class="s2">= </span><span class="s0">new </span><span class="s1">GrupoUsuario</span><span class="s2">();</span>
+<a name="l45"><span class="ln">45   </span></a>    <span class="s0">private </span><span class="s1">GrupoModel gum </span><span class="s2">= </span><span class="s0">new </span><span class="s1">GrupoModel</span><span class="s2">();</span>
+<a name="l46"><span class="ln">46   </span></a>    <span class="s0">private </span><span class="s1">Boolean admin</span><span class="s2">;</span>
+<a name="l47"><span class="ln">47   </span></a>
+<a name="l48"><span class="ln">48   </span></a>    <span class="s3">/**</span>
+<a name="l49"><span class="ln">49   </span></a>     <span class="s3">* Inicializa el controlador de la vista.</span>
+<a name="l50"><span class="ln">50   </span></a>     <span class="s3">* Recupera los datos del usuario cuando se carga la vista.</span>
+<a name="l51"><span class="ln">51   </span></a>     <span class="s3">*</span>
+<a name="l52"><span class="ln">52   </span></a>     <span class="s3">* </span><span class="s4">@param </span><span class="s3">url el URL de la localización utilizada para resolver rutas relativas para el objeto raíz, o null si no se ha proporcionado.</span>
+<a name="l53"><span class="ln">53   </span></a>     <span class="s3">* </span><span class="s4">@param </span><span class="s3">resourceBundle los recursos utilizados para localizar el objeto raíz, o null si no se ha proporcionado.</span>
+<a name="l54"><span class="ln">54   </span></a>     <span class="s3">*/</span>
+<a name="l55"><span class="ln">55   </span></a>    <span class="s1">@Override</span>
+<a name="l56"><span class="ln">56   </span></a>    <span class="s0">public void </span><span class="s1">initialize</span><span class="s2">(</span><span class="s1">URL url</span><span class="s2">, </span><span class="s1">ResourceBundle resourceBundle</span><span class="s2">) {</span>
+<a name="l57"><span class="ln">57   </span></a>        <span class="s1">recuperarDatos</span><span class="s2">();</span>
+<a name="l58"><span class="ln">58   </span></a>    <span class="s2">}</span>
+<a name="l59"><span class="ln">59   </span></a>
+<a name="l60"><span class="ln">60   </span></a>    <span class="s3">/**</span>
+<a name="l61"><span class="ln">61   </span></a>     <span class="s3">* Maneja el evento de clic en el botón &quot;Crear Grupo&quot;.</span>
+<a name="l62"><span class="ln">62   </span></a>     <span class="s3">* Obtiene el nombre del grupo del campo de texto, crea el grupo y añade el usuario como administrador.</span>
+<a name="l63"><span class="ln">63   </span></a>     <span class="s3">* Luego, carga la vista del grupo recién creado.</span>
+<a name="l64"><span class="ln">64   </span></a>     <span class="s3">*</span>
+<a name="l65"><span class="ln">65   </span></a>     <span class="s3">* </span><span class="s4">@param </span><span class="s3">actionEvent el evento que se produce cuando se hace clic en el botón.</span>
+<a name="l66"><span class="ln">66   </span></a>     <span class="s3">*/</span>
+<a name="l67"><span class="ln">67   </span></a>    <span class="s1">@javafx</span><span class="s2">.</span><span class="s1">fxml</span><span class="s2">.</span><span class="s1">FXML</span>
+<a name="l68"><span class="ln">68   </span></a>    <span class="s0">public void </span><span class="s1">onCrearGrupoButtonClick</span><span class="s2">(</span><span class="s1">ActionEvent actionEvent</span><span class="s2">) {</span>
+<a name="l69"><span class="ln">69   </span></a>        <span class="s5">// Obtener el nombre del grupo del campo de texto</span>
+<a name="l70"><span class="ln">70   </span></a>        <span class="s1">String nombre </span><span class="s2">= </span><span class="s1">NombreGrupoTextField</span><span class="s2">.</span><span class="s1">getText</span><span class="s2">();</span>
+<a name="l71"><span class="ln">71   </span></a>
+<a name="l72"><span class="ln">72   </span></a>        <span class="s5">// Verificar si el nombre del grupo está vacío</span>
+<a name="l73"><span class="ln">73   </span></a>        <span class="s0">if </span><span class="s2">(</span><span class="s1">nombre </span><span class="s2">== </span><span class="s0">null </span><span class="s2">|| </span><span class="s1">nombre</span><span class="s2">.</span><span class="s1">trim</span><span class="s2">().</span><span class="s1">isEmpty</span><span class="s2">()) {</span>
+<a name="l74"><span class="ln">74   </span></a>            <span class="s1">Alert alert </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Alert</span><span class="s2">(</span><span class="s1">Alert</span><span class="s2">.</span><span class="s1">AlertType</span><span class="s2">.</span><span class="s1">INFORMATION</span><span class="s2">);</span>
+<a name="l75"><span class="ln">75   </span></a>            <span class="s1">alert</span><span class="s2">.</span><span class="s1">setContentText</span><span class="s2">(</span><span class="s6">&quot;Nombre de Grupo Vacío&quot;</span><span class="s2">);</span>
+<a name="l76"><span class="ln">76   </span></a>            <span class="s1">alert</span><span class="s2">.</span><span class="s1">showAndWait</span><span class="s2">();</span>
+<a name="l77"><span class="ln">77   </span></a>            <span class="s0">return</span><span class="s2">;</span>
+<a name="l78"><span class="ln">78   </span></a>
+<a name="l79"><span class="ln">79   </span></a>        <span class="s2">}</span>
+<a name="l80"><span class="ln">80   </span></a>
+<a name="l81"><span class="ln">81   </span></a>        <span class="s5">// Crear un nuevo grupo con el nombre proporcionado</span>
+<a name="l82"><span class="ln">82   </span></a>        <span class="s1">gm</span><span class="s2">.</span><span class="s1">getCrearGrupo</span><span class="s2">(</span><span class="s1">nombre</span><span class="s2">);</span>
+<a name="l83"><span class="ln">83   </span></a>
+<a name="l84"><span class="ln">84   </span></a>        <span class="s5">// Obtener el ID del grupo recién creado</span>
+<a name="l85"><span class="ln">85   </span></a>        <span class="s1">g </span><span class="s2">= </span><span class="s1">gm</span><span class="s2">.</span><span class="s1">getVerIdGrupo</span><span class="s2">(</span><span class="s1">nombre</span><span class="s2">);</span>
+<a name="l86"><span class="ln">86   </span></a>
+<a name="l87"><span class="ln">87   </span></a>        <span class="s5">// Asignar el usuario actual como administrador del nuevo grupo</span>
+<a name="l88"><span class="ln">88   </span></a>        <span class="s1">admin </span><span class="s2">= </span><span class="s0">true</span><span class="s2">;</span>
+<a name="l89"><span class="ln">89   </span></a>        <span class="s1">gum</span><span class="s2">.</span><span class="s1">GetAnyadirUsuarioNuevoGrupo</span><span class="s2">(</span><span class="s1">g</span><span class="s2">.</span><span class="s1">getIdGrupo</span><span class="s2">(), </span><span class="s1">u</span><span class="s2">.</span><span class="s1">getId</span><span class="s2">(), </span><span class="s1">admin</span><span class="s2">);</span>
+<a name="l90"><span class="ln">90   </span></a>
+<a name="l91"><span class="ln">91   </span></a>        <span class="s5">// Cargar la vista del grupo recién creado</span>
+<a name="l92"><span class="ln">92   </span></a>        <span class="s0">try </span><span class="s2">{</span>
+<a name="l93"><span class="ln">93   </span></a>            <span class="s1">AnchorPane pane </span><span class="s2">= </span><span class="s1">FXMLLoader</span><span class="s2">.</span><span class="s1">load</span><span class="s2">(</span><span class="s1">getClass</span><span class="s2">().</span><span class="s1">getResource</span><span class="s2">(</span><span class="s6">&quot;Vistas-paraTodos/GrupoPagina.fxml&quot;</span><span class="s2">));</span>
+<a name="l94"><span class="ln">94   </span></a>            <span class="s0">this</span><span class="s2">.</span><span class="s1">CrearGrupoPAne</span><span class="s2">.</span><span class="s1">getChildren</span><span class="s2">().</span><span class="s1">setAll</span><span class="s2">(</span><span class="s1">pane</span><span class="s2">);</span>
+<a name="l95"><span class="ln">95   </span></a>        <span class="s2">} </span><span class="s0">catch </span><span class="s2">(</span><span class="s1">IOException ex</span><span class="s2">) {</span>
+<a name="l96"><span class="ln">96   </span></a>            <span class="s1">Logger</span><span class="s2">.</span><span class="s1">getLogger</span><span class="s2">(</span><span class="s1">AnyadirGrupoController</span><span class="s2">.</span><span class="s0">class</span><span class="s2">.</span><span class="s1">getName</span><span class="s2">()).</span><span class="s1">log</span><span class="s2">(</span><span class="s1">Level</span><span class="s2">.</span><span class="s1">SEVERE</span><span class="s2">, </span><span class="s0">null</span><span class="s2">, </span><span class="s1">ex</span><span class="s2">);</span>
+<a name="l97"><span class="ln">97   </span></a>        <span class="s2">}</span>
+<a name="l98"><span class="ln">98   </span></a>    <span class="s2">}</span>
+<a name="l99"><span class="ln">99   </span></a>
+<a name="l100"><span class="ln">100  </span></a>
+<a name="l101"><span class="ln">101  </span></a>
+<a name="l102"><span class="ln">102  </span></a>    <span class="s3">/**</span>
+<a name="l103"><span class="ln">103  </span></a>     <span class="s3">* Recupera los datos del usuario y los asigna a la variable de instancia {</span><span class="s4">@link </span><span class="s3">Usuarios}.</span>
+<a name="l104"><span class="ln">104  </span></a>     <span class="s3">* Utiliza el patrón singleton para obtener la instancia actual del usuario.</span>
+<a name="l105"><span class="ln">105  </span></a>     <span class="s3">*/</span>
+<a name="l106"><span class="ln">106  </span></a>    <span class="s0">public void </span><span class="s1">recuperarDatos</span><span class="s2">() {</span>
+<a name="l107"><span class="ln">107  </span></a>        <span class="s5">// Obtener la instancia del UsuarioHolder (patrón singleton)</span>
+<a name="l108"><span class="ln">108  </span></a>        <span class="s1">UsuarioHolder holder </span><span class="s2">= </span><span class="s1">UsuarioHolder</span><span class="s2">.</span><span class="s1">getInstance</span><span class="s2">();</span>
+<a name="l109"><span class="ln">109  </span></a>        <span class="s1">u </span><span class="s2">= </span><span class="s1">holder</span><span class="s2">.</span><span class="s1">getUsuario</span><span class="s2">();</span>
+<a name="l110"><span class="ln">110  </span></a>
+<a name="l111"><span class="ln">111  </span></a>        <span class="s5">// Verificar si el usuario es nulo y manejarlo apropiadamente</span>
+<a name="l112"><span class="ln">112  </span></a>        <span class="s0">if </span><span class="s2">(</span><span class="s1">u </span><span class="s2">!= </span><span class="s0">null</span><span class="s2">) {</span>
+<a name="l113"><span class="ln">113  </span></a>            <span class="s5">// Aquí puedes añadir más lógica para cuando el usuario no sea nulo.</span>
+<a name="l114"><span class="ln">114  </span></a>        <span class="s2">} </span><span class="s0">else </span><span class="s2">{</span>
+<a name="l115"><span class="ln">115  </span></a>            <span class="s1">System</span><span class="s2">.</span><span class="s1">err</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s6">&quot;El usuario es nulo.&quot;</span><span class="s2">);</span>
+<a name="l116"><span class="ln">116  </span></a>        <span class="s2">}</span>
+<a name="l117"><span class="ln">117  </span></a>    <span class="s2">}</span>
+<a name="l118"><span class="ln">118  </span></a><span class="s2">}</span>
+<a name="l119"><span class="ln">119  </span></a></pre>
+</body>
+</html>
