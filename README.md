@@ -98,9 +98,7 @@ Sistema Operativo: Windows.
 
 
 ## Licencia
-Este proyecto actualmente no sustenta ningún tipo de licencia.
-
-
+Este proyecto está licenciado bajo la Licencia Pública General de GNU v3.0. Puedes ver los detalles en el archivo [LICENSE](LICENSE).
 
 ## Contacto
 Para cualquier consulta o sugerencia, no dudes en ponerte en contacto con el equipo de GoTask en contacto@gotask.com.
