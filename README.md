@@ -1,72 +1,120 @@
-# GoTask
+# 🚀 GoTask: Simplifica tu productividad
 
-## 🌟 Tabla de Contenidos
-- [Descripción del Proyecto](#descripción-del-proyecto)
-- [Uso](#uso)
-- [Estado del Proyecto](#estado-del-proyecto)
-- [Instalación](#instalación)
-- [Requisitos del Sistema](#requisitos-del-sistema)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
-- [Contacto](#contacto)
+[![Licencia](https://img.shields.io/badge/Licencia-GNU%20GPL%20v3-blue.svg)](LICENSE)
 
----
+> *Organiza. Colabora. Triunfa.*
 
-## 💡 Descripción del Proyecto
+## 📋 Tabla de Contenidos
+- [¿Qué es GoTask?](#qué-es-gotask)
+- [✨ Características](#características)
+- [🎮 Cómo empezar](#cómo-empezar)
+- [🔄 Estado del Proyecto](#estado-del-proyecto)
+- [💻 Instalación](#instalación)
+- [⚙️ Requisitos del Sistema](#requisitos-del-sistema)
+- [👥 Únete al desarrollo](#únete-al-desarrollo)
+- [📄 Licencia](#licencia)
+- [📞 Contacto](#contacto)
 
-**GoTask** es la herramienta definitiva para gestionar tus tareas de manera eficiente y organizada, diseñada tanto para usuarios individuales como para equipos. Ya sea que quieras optimizar tus actividades diarias, coordinar proyectos personales o trabajar de manera colaborativa, GoTask es la solución perfecta. ¡Pon orden en tu vida con un solo clic!
+## ¿Qué es GoTask?
 
-### 🚀 Características Principales
+**GoTask** transforma la manera en que gestionas tus tareas y proyectos. Diseñada para adaptarse tanto a tu ritmo personal como al de tu equipo, esta aplicación combina potencia y simplicidad para que nunca más pierdas el control de tus objetivos.
 
-#### 📝 Gestión Intuitiva de Tareas
-Olvídate de las complicaciones. GoTask te ofrece una interfaz fácil de usar, permitiéndote crear, organizar y gestionar tus tareas sin esfuerzo. Desde tareas simples hasta proyectos más complejos, GoTask te ayuda a hacer todo con facilidad.
+### ¿Para quién está pensada?
 
-#### 🤝 Colaboración en Grupo
-¡Nunca más trabajarás solo! GoTask te permite formar equipos de trabajo y colaborar en proyectos de manera efectiva. Invita a compañeros, amigos o familiares y gestionen juntos las tareas de forma sencilla y productiva.
+- 🎓 **Estudiantes** que malabarean con clases, trabajos y vida social
+- 💼 **Profesionales** que necesitan mantener sus proyectos en orden
+- 👪 **Familias** que quieren coordinar actividades y responsabilidades
+- 👥 **Equipos** que buscan optimizar su flujo de trabajo colaborativo
 
-#### 🔧 Personalización y Flexibilidad
-Sabemos que cada usuario tiene su propio ritmo. Por eso, GoTask ofrece múltiples opciones de personalización para que adaptes la aplicación a tus necesidades. Prioriza tareas, configura recordatorios y establece etiquetas a tu gusto.
+## Características
 
-#### 🔐 Seguridad y Privacidad
-Tu privacidad es nuestra prioridad. En GoTask, utilizamos las mejores prácticas de seguridad y tecnologías avanzadas de cifrado para garantizar que tus datos estén siempre protegidos.
+### 🧠 Gestión Intuitiva
+Arrastra, suelta, reorganiza y completa tareas con una interfaz que piensa como tú. Sin curvas de aprendizaje pronunciadas, solo productividad instantánea.
 
-### 🧑‍💻 ¿Para Quién es GoTask?
+### 👥 Colaboración sin fricciones
+Crea espacios compartidos donde cada miembro puede contribuir en tiempo real. Comenta, asigna y realiza seguimiento sin salir de la aplicación.
 
-GoTask es ideal para cualquier persona que busque mejorar su productividad y organización. Ya seas estudiante, profesional o alguien que solo necesita llevar un control de sus tareas diarias, GoTask se adapta a tus necesidades y te ayuda a ser más eficiente.
+### 🎨 Personalización a tu medida
+Adapta GoTask a tu estilo de trabajo con etiquetas de colores, prioridades personalizadas y vistas que se ajustan a tus necesidades específicas.
 
-### 💪 ¿Por Qué Elegir GoTask?
+### 🔒 Seguridad inquebrantable
+Tu información está protegida con cifrado de nivel militar. Concentra tu energía en lo importante mientras nosotros nos encargamos de mantener tus datos seguros.
 
-- **Fácil de Usar**: Olvídate de configuraciones complicadas. GoTask tiene una interfaz simple e intuitiva que te permite comenzar sin perder tiempo.
-- **Trabajo en Equipo**: ¿Tienes proyectos en grupo? GoTask facilita la creación de equipos y la asignación de tareas compartidas.
-- **Totalmente Personalizable**: Adapta GoTask a tu estilo y necesidades de trabajo con opciones de personalización de tareas, etiquetas y notificaciones.
-- **Privacidad y Seguridad**: Protegemos tu información con altos estándares de seguridad, para que puedas confiar en que tus datos están a salvo.
+### ¿Por qué elegir GoTask?
 
----
+- ⚡ **Agilidad**: Interfaz que responde a tus necesidades sin entorpecer tu flujo
+- 🤝 **Versatilidad**: Perfecta tanto para uso individual como para equipos de cualquier tamaño
+- 🛠️ **Adaptabilidad**: Se moldea a tu forma de trabajar, no al revés
+- 🔐 **Confianza**: Seguridad robusta que protege tu información sin complicaciones
 
-## 🛠️ Uso
+## Cómo empezar
 
-Empezar con GoTask es tan fácil como 1, 2, 3:
+Dar el primer paso con GoTask es tan sencillo como:
 
-1. **Regístrate** en la aplicación con tu correo electrónico.
-2. **Configura tu perfil** y ajusta tus preferencias según tus necesidades.
-3. **Crea y organiza** tus tareas de forma individual o en grupo.
-4. ¡Explora las opciones colaborativas y empieza a gestionar proyectos con tu equipo!
+1. Registrarte con tu correo electrónico
+2. Personalizar tu espacio de trabajo
+3. Crear tus primeras tareas o proyectos
+4. Invitar colaboradores (¡opcional!)
 
----
+## Estado del Proyecto
 
-## 🏗️ Estado del Proyecto
+GoTask evoluciona constantemente. Estamos comprometidos con la mejora continua, implementando nuevas funcionalidades basadas en el feedback de nuestra comunidad de usuarios. ¡Tu opinión cuenta!
 
-GoTask sigue evolucionando. Aunque la aplicación ya está totalmente funcional, estamos comprometidos con el desarrollo continuo, lanzando nuevas características, mejorando la seguridad y optimizando la experiencia de usuario. ¡Esto es solo el principio!
+## Instalación
 
----
+### Requisitos previos importantes:
 
-## 🔧 Instalación
+- ⚠️ **Compatibilidad**: Actualmente optimizado para IntelliJ IDEA
+- ☕ **Java**: Requiere JRE 21 (versiones anteriores no garantizan funcionamiento correcto)
+- 🗄️ **Base de datos**: Probado y optimizado para MySQL WorkBench 8.0 CE
 
-Para disfrutar de GoTask en tu sistema, sigue estos sencillos pasos:
+### Pasos de instalación:
 
-1. **Asegúrate de tener IntelliJ instalado** (por ahora, GoTask solo está disponible para IntelliJ).
-2. **Instala Java Runtime Environment (JRE) 21**, ya que GoTask requiere esta versión para funcionar correctamente. No garantizamos la compatibilidad con versiones anteriores de Java.
-3. **Base de datos**: Si quieres evitar problemas, utiliza **MySQL Workbench 8.0 CE**, que es el sistema con el que hemos probado GoTask.
-4. Clona el repositorio desde GitHub:
+1. **Clona el repositorio** (preferentemente desde IntelliJ):
    ```bash
    git clone https://github.com/tuusuario/gotask.git
+   ```
+
+2. **Abre el proyecto** en IntelliJ IDEA
+
+3. **Configura la conexión** a la base de datos MySQL
+
+4. **Ejecuta la aplicación** y comienza a disfrutar de una nueva experiencia en gestión de tareas
+
+## Requisitos del Sistema
+
+Para una experiencia óptima con GoTask, asegúrate de contar con:
+
+- **Sistema Operativo**: Windows
+- **Java**: JRE 21
+- **Memoria**: 2 GB RAM mínimo recomendado
+- **Almacenamiento**: 1 GB de espacio libre
+- **Permisos**: Nivel de administrador para la instalación inicial
+
+## Únete al desarrollo
+
+¿Tienes ideas para mejorar GoTask? ¡Nos encantaría contar contigo! Sigue estos pasos:
+
+1. Haz un fork del repositorio
+2. Clona tu fork localmente
+3. Crea una rama para tu contribución (`git checkout -b mi-nueva-funcionalidad`)
+4. Implementa tus cambios y comprueba su funcionamiento
+5. Envía un pull request detallando tus mejoras
+
+## Licencia
+
+GoTask se distribuye bajo la licencia GNU GPL v3.0. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## Contacto
+
+¿Preguntas, sugerencias o simplemente quieres saludar? Escríbenos a:
+
+📧 contacto@gotask.com
+
+---
+
+*GoTask: Donde las tareas se convierten en logros.*
+
+
+
+### ESTO SE TRATA DE UN PROYECTO TFC
