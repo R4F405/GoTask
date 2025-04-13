@@ -2,6 +2,9 @@
 
 [![Licencia](https://img.shields.io/badge/Licencia-GNU%20GPL%20v3-blue.svg)](LICENSE)
 
+[![LOGO](src/main/resources/Imagenes/GoTask-LOGO-fotor-bg-remover-202405229011.png)]
+
+
 > *Organiza. Colabora. Triunfa.*
 
 ## 📋 Tabla de Contenidos
