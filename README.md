@@ -1,4 +1,4 @@
-[LOGO](src/main/resources/Imagenes/GoTask-LOGO.png)
+[![LOGO](src/main/resources/Imagenes/GoTask-LOGO.png)]
 
 # 🚀 GoTask: Simplifica tu productividad
 
