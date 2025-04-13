@@ -1,5 +1,3 @@
-[![LOGO](src/main/resources/Imagenes/GoTask-LOGO.png)]
-
 # 🚀 GoTask: Simplifica tu productividad
 
 [![Licencia](https://img.shields.io/badge/Licencia-GNU%20GPL%20v3-blue.svg)](LICENSE)
