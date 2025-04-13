@@ -1,3 +1,5 @@
+###"Esto es un proyecto TFC"
+
 # 🚀 GoTask: Simplifica tu productividad
 
 [![Licencia](https://img.shields.io/badge/Licencia-GNU%20GPL%20v3-blue.svg)](LICENSE)
@@ -114,7 +116,3 @@ GoTask se distribuye bajo la licencia GNU GPL v3.0. Consulta el archivo [LICENSE
 ---
 
 *GoTask: Donde las tareas se convierten en logros.*
-
-
-
-### ESTO SE TRATA DE UN PROYECTO TFC
