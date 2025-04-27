@@ -6,6 +6,8 @@
 
 > *Organiza. Colabora. Triunfa.*
 
+![Captura de GoTask](ImagenesGIT/ImagenGoTask.jpg)
+
 ## 📋 Tabla de Contenidos
 - [¿Qué es GoTask?](#qué-es-gotask)
 - [✨ Características](#características)
