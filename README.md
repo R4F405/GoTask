@@ -1,5 +1,3 @@
-#### "Esto es un proyecto TFC"
-
 # 🚀 GoTask: Simplifica tu productividad
 
 [![Licencia](https://img.shields.io/badge/Licencia-GNU%20GPL%20v3-blue.svg)](LICENSE)
