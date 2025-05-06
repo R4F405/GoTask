@@ -1,118 +1,118 @@
-# 🚀 GoTask: Simplifica tu productividad
+# 🚀 GoTask: Streamline Your Productivity
 
-[![Licencia](https://img.shields.io/badge/Licencia-GNU%20GPL%20v3-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-GNU%20GPL%20v3-blue.svg)](LICENSE) [![Development Status](https://img.shields.io/badge/Development-Completed-orange.svg)](https://github.com/R4F405/gotask)
 
-> *Organiza. Colabora. Triunfa.*
+> *Organize. Collaborate. Achieve.*
 
-![Captura de GoTask](ImagenesGIT/ImagenGoTask.jpg)
+![GoTask Screenshot](ImagenesGIT/ImagenGoTask.jpg)
 
-## 📋 Tabla de Contenidos
-- [¿Qué es GoTask?](#qué-es-gotask)
-- [✨ Características](#características)
-- [🎮 Cómo empezar](#cómo-empezar)
-- [🔄 Estado del Proyecto](#estado-del-proyecto)
-- [💻 Instalación](#instalación)
-- [⚙️ Requisitos del Sistema](#requisitos-del-sistema)
-- [👥 Únete al desarrollo](#únete-al-desarrollo)
-- [📄 Licencia](#licencia)
-- [📞 Contacto](#contacto)
+## 📋 Table of Contents
+- [What is GoTask?](#what-is-gotask)
+- [✨ Features](#features)
+- [🎮 Getting Started](#getting-started)
+- [🔄 Project Status](#project-status)
+- [💻 Installation](#installation)
+- [⚙️ System Requirements](#system-requirements)
+- [👥 Get Involved](#get-involved)
+- [📄 License](#license)
+- [📞 Contact](#contact)
 
-## ¿Qué es GoTask?
+## What is GoTask?
 
-**GoTask** transforma la manera en que gestionas tus tareas y proyectos. Diseñada para adaptarse tanto a tu ritmo personal como al de tu equipo, esta aplicación combina potencia y simplicidad para que nunca más pierdas el control de tus objetivos.
+**GoTask** transforms how you manage your tasks and projects. Designed to adapt to both your personal pace and your team's workflow, this application combines power and simplicity so you never lose control of your goals again.
 
-### ¿Para quién está pensada?
+### Who is it for?
 
-- 🎓 **Estudiantes** que malabarean con clases, trabajos y vida social
-- 💼 **Profesionales** que necesitan mantener sus proyectos en orden
-- 👪 **Familias** que quieren coordinar actividades y responsabilidades
-- 👥 **Equipos** que buscan optimizar su flujo de trabajo colaborativo
+- 🎓 **Students** juggling classes, assignments, and social life
+- 💼 **Professionals** needing to keep their projects pTM-organized
+- 👪 **Families** looking to coordinate activities and responsibilities
+- 👥 **Teams** seeking to optimize their collaborative workflow
 
-## Características
+## Features
 
-### 🧠 Gestión Intuitiva
-Arrastra, suelta, reorganiza y completa tareas con una interfaz que piensa como tú. Sin curvas de aprendizaje pronunciadas, solo productividad instantánea.
+### 🧠 Intuitive Management
+Drag, drop, reorganize, and complete tasks with an interface that thinks like you do. No steep learning curves, just instant productivity.
 
-### 👥 Colaboración sin fricciones
-Crea espacios compartidos donde cada miembro puede contribuir en tiempo real. Comenta, asigna y realiza seguimiento sin salir de la aplicación.
+### 👥 Frictionless Collaboration
+Create shared spaces where every member can contribute in real-time. Comment, assign, and track progress without leaving the application.
 
-### 🎨 Personalización a tu medida
-Adapta GoTask a tu estilo de trabajo con etiquetas de colores, prioridades personalizadas y vistas que se ajustan a tus necesidades específicas.
+### 🎨 Tailored Customization
+Adapt GoTask to your work style with color-coded labels, custom priorities, and views that fit your specific needs.
 
-### 🔒 Seguridad inquebrantable
-Tu información está protegida con cifrado de nivel militar. Concentra tu energía en lo importante mientras nosotros nos encargamos de mantener tus datos seguros.
+### 🔒 Unbreakable Security
+Your information is protected with military-grade encryption. Focus your energy on what's important while we take care of keeping your data secure.
 
-### ¿Por qué elegir GoTask?
+### Why Choose GoTask?
 
-- ⚡ **Agilidad**: Interfaz que responde a tus necesidades sin entorpecer tu flujo
-- 🤝 **Versatilidad**: Perfecta tanto para uso individual como para equipos de cualquier tamaño
-- 🛠️ **Adaptabilidad**: Se moldea a tu forma de trabajar, no al revés
-- 🔐 **Confianza**: Seguridad robusta que protege tu información sin complicaciones
+- ⚡ **Agility**: An interface that responds to your needs without hindering your flow
+- 🤝 **Versatility**: Perfect for both individual use and teams of any size
+- 🛠️ **Adaptability**: It molds to your way of working, not the other way around
+- 🔐 **Trust**: Robust security that protects your information without complications
 
-## Cómo empezar
+## Getting Started
 
-Dar el primer paso con GoTask es tan sencillo como:
+Taking the first step with GoTask is as simple as:
 
-1. Registrarte con tu correo electrónico
-2. Personalizar tu espacio de trabajo
-3. Crear tus primeras tareas o proyectos
-4. Invitar colaboradores (¡opcional!)
+1. Registering with your email address
+2. Customizing your workspace
+3. Creating your first tasks or projects
+4. Inviting collaborators (optional!)
 
-## Estado del Proyecto
+## Project Status
 
-GoTask evoluciona constantemente. Estamos comprometidos con la mejora continua, implementando nuevas funcionalidades basadas en el feedback de nuestra comunidad de usuarios. ¡Tu opinión cuenta!
+GoTask is constantly evolving. We are committed to continuous improvement, implementing new functionalities based on feedback from our user community. Your opinion counts!
 
-## Instalación
+## Installation
 
-### Requisitos previos importantes:
+### Important Prerequisites:
 
-- ⚠️ **Compatibilidad**: Actualmente optimizado para IntelliJ IDEA
-- ☕ **Java**: Requiere JRE 21 (versiones anteriores no garantizan funcionamiento correcto)
-- 🗄️ **Base de datos**: Probado y optimizado para MySQL WorkBench 8.0 CE
+- ⚠️ **Compatibility**: Currently optimized for IntelliJ IDEA
+- ☕ **Java**: Requires JRE 21 (older versions do not guarantee correct functionality)
+- 🗄️ **Database**: Tested and optimized for MySQL WorkBench 8.0 CE
 
-### Pasos de instalación:
+### Installation Steps:
 
-1. **Clona el repositorio** (preferentemente desde IntelliJ):
+1. **Clone the repository** (preferably from IntelliJ):
    ```bash
-   git clone https://github.com/tuusuario/gotask.git
+   git clone https://github.com/R4F405/gotask.git
    ```
 
-2. **Abre el proyecto** en IntelliJ IDEA
+2. **Open the project** in IntelliJ IDEA
 
-3. **Configura la conexión** a la base de datos MySQL
+3. **Configure the connection** to the MySQL database
 
-4. **Ejecuta la aplicación** y comienza a disfrutar de una nueva experiencia en gestión de tareas
+4. **Run the application** and start enjoying a new task management experience
 
-## Requisitos del Sistema
+## System Requirements
 
-Para una experiencia óptima con GoTask, asegúrate de contar con:
+For an optimal experience with GoTask, ensure you have:
 
-- **Sistema Operativo**: Windows
+- **Operating System**: Windows
 - **Java**: JRE 21
-- **Memoria**: 2 GB RAM mínimo recomendado
-- **Almacenamiento**: 1 GB de espacio libre
-- **Permisos**: Nivel de administrador para la instalación inicial
+- **Memory**: 2 GB RAM minimum recommended
+- **Storage**: 1 GB of free space
+- **Permissions**: Administrator level for initial installation
 
-## Únete al desarrollo
+## Get Involved
 
-¿Tienes ideas para mejorar GoTask? ¡Nos encantaría contar contigo! Sigue estos pasos:
+Have ideas to improve GoTask? We'd love to have you on board! Follow these steps:
 
-1. Haz un fork del repositorio
-2. Clona tu fork localmente
-3. Crea una rama para tu contribución (`git checkout -b mi-nueva-funcionalidad`)
-4. Implementa tus cambios y comprueba su funcionamiento
-5. Envía un pull request detallando tus mejoras
+1. Fork the repository
+2. Clone your fork locally
+3. Create a branch for your contribution (`git checkout -b my-new-feature`)
+4. Implement your changes and test their functionality
+5. Submit a pull request detailing your improvements
 
-## Licencia
+## License
 
-GoTask se distribuye bajo la licencia GNU GPL v3.0. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+GoTask is distributed under the GNU GPL v3.0 license. See the [LICENSE](LICENSE) file for more details.
 
-## Contacto
+## Contact
 
-¿Preguntas, sugerencias o simplemente quieres saludar? Escríbenos a:
+Questions, suggestions, or just want to say hello? Write to us at:
 
 📧 contacto@gotask.com
 
 ---
 
-*GoTask: Donde las tareas se convierten en logros.*
+*GoTask: Where tasks become achievements.*
